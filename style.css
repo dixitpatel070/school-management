@@ -1,0 +1,202 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	position: fixed;
+	background: skyblue;
+	height: 70px;
+	width: 100%;
+	z-index: 1;
+}
+
+.logo{
+	font-size: 25px;
+	position: relative;
+	left: 5%;
+	color: white;
+	font-weight: bold;
+	line-height: 70px;
+}
+
+ul{
+	position: relative;
+	float: right;
+	margin-right: 25px;
+}
+
+ul li{
+	display: inline-block;
+	line-height: 70px;
+	height: 50px;
+	margin: 0 5px;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+ul li a:hover{
+	text-decoration: none;
+}
+.main_img{
+	width: 100%;
+	height: 400px;
+
+
+}
+.section1{
+	padding-top: 70px;
+}
+
+.img_text{
+	position: absolute;
+	left: 50%;
+	top: 25%;
+	transform: translateX(-50%);
+	color: white;
+/*	background-color: midnightblue;*/
+	padding: 0px 20px ;
+	font-size: 70px;
+	border-radius: 5px;
+	text-align: center;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 1.0);
+}
+
+.welcom_img{
+	width: 100%;
+	height: 250px;
+}
+
+.container{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.teacher{
+	width: 100%;
+	height: 300px;
+	display: block;
+	border-radius: 20px;
+
+}
+.col-md-4{
+	position: relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.col-md-4:hover .overlay {
+  height: 30%;
+
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.label_text{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+}
+.input_deg{
+	height: 40px;
+	width: 30%;
+	border-radius: 10px;
+	border: 1px solid blue;
+	padding-right: 10px;
+}
+
+.adm_int{
+	padding-top: 10px;
+}
+
+.input_txt{
+	height: 100px;
+	width: 30%;
+	border-radius: 10px;
+	border: 1px solid blue;
+}
+
+#submit{
+	position: relative;
+	width: 15%;
+	left: 4%;
+}
+
+footer{
+	background-color: black;
+	height: 70px;
+	width: 100%;
+}
+.footer_text{
+	text-align: center;
+	color: white;
+	top: 20%;
+	position: relative;
+}
+.adm{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+/*Login Form*/
+
+.form_deg{
+	padding-top: 15%;
+
+}
+
+.label_deg{
+	display: inline-block;
+	color: skyblue;
+	width: 100px;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.login_form{
+	background-color: black;
+	width: 400px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	
+}
+
+.title_deg{
+	background-color: skyblue;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	width: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+
+.body_deg{
+	background-size: 100% 100%;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+}
